@@ -1,0 +1,22 @@
+Setting up your Keybow 2040 from scratch:
+
+1: Plugged the device into my computer; the computer mounted the CIRCUITPY drive
+2: Deleted everything on the CIRCUITPY drive
+3: Holding BOOTSEL, tapped RESET to get the device to mount as RPI-RP2
+4: Downloaded the UF2 file from Keybow 2040 Download to my PC (link above)
+5: Dragged the UF2 file from my PC’s downloads folder to the RPI-RP2 folder
+6: After the UF2 file finished copying, the device rebooted and the CIRCUITPY drive mounted
+7: Cloned the Github repository pimoroni/pmk to my local machine
+8: Dragged the repository’s lib and examples folders to the CIRCUITPY drive
+9: Cloned the Github repository adafruit/Adafruit_BusDevice to my local machine
+10: Dragged the repository’s adafruit_bus_device folder to the CIRCUITPY/lib folder
+11: Cloned the Github repository adafruit/Adafruit_HID to my local machine
+12: Dragged the repository’s adafruit_hid folder to the CIRCUITPY/lib folder
+13: Cloned the Github repository adafruit/Adafruit_CircuitPython_IS31FL3731 to my local machine
+14: Dragged the repository’s adafruit_is31fl3731 folder to the CIRCUITPY/lib folder
+
+Relevant URLs: 
+UF2 file for Keybow 2040: https://circuitpython.org/board/pimoroni_keybow2040/
+Pimoronis learn article: https://learn.pimoroni.com/article/circuitpython-and-keybow-2040
+
+Credit goes to User HappyUser on the Pimoroni forums for putting the original list together in 2022 - link to their post: https://forums.pimoroni.com/t/set-up-of-keybow-2040/18870/6
