@@ -1,4 +1,6 @@
- # SPDX-FileCopyrightText: 2021 Sandy Macdonald
+# See https://forums.pimoroni.com/t/keybow2040-send-multiple-keycodes-in-response-to-a-single-actual-keypress/17760 for multiple keys pressed per key
+
+# SPDX-FileCopyrightText: 2021 Sandy Macdonald
 #
 # SPDX-License-Identifier: MIT
 
